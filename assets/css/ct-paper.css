@@ -3338,25 +3338,5 @@ textarea.form-control {
   display: block;
 }
 
-/* modified/added by BP */
-.info-icon {
-  text-align: center;
-  margin-bottom: 30px;
-}
-.info-icon .icon {
-  font-size: 62px;
-  line-height: 66px;
-  color: #c5a47e;
-  margin-bottom: -20px;
-}
-.info-icon .description {
-  margin-top: 15px;
-  color: #777777;
-}
 
-.btn-sharp {
-	border-radius: 0;
-    margin-right:10px;
-    margin-bottom:10px
-}
 /*---------------------------------*/

@@ -1,3 +1,19 @@
+/*!
+
+ =========================================================
+ * Paper Kit - v1.2.2
+ =========================================================
+ 
+ * Product Page: http://www.creative-tim.com/product/paper-kit
+ * Copyright 2016 Creative Tim (http://www.creative-tim.com)
+ * Licensed under MIT (https://github.com/timcreative/paper-kit/blob/master/LICENSE.md)
+ 
+ =========================================================
+ 
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ */
+ 
+
 .landing-alert {
   margin-bottom: 0;
 }
@@ -59,130 +75,76 @@
   z-index: 2;
 }
 
-#register-navbar a {
-  color: #FFF;
+/*From demo.css */
+.footer-demo{
+    background-attachment: fixed;
+    position: relative;
+    line-height: 20px;
 }
-
-.register-background {
-  background-image: url("../paper_img/landscape.jpg");
-  background-position: center center;
-  background-size: cover;
-  min-height: 100vh;
-  overflow: hidden;
-  position: absolute;
-  width: 100%;
+.footer-demo nav > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
 }
-
-.register-background .filter-black::after {
-  background-color: rgba(0, 0, 0, 0.5);
-  content: "";
+.footer-demo nav > ul > li{
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 15px 3px;
+    line-height: 20px;
+    text-align: center;
+}
+.footer-demo nav > ul > li:first-child{
+    margin: 0;
+    padding: 0;
+}
+.footer-demo nav > ul a:not(.btn) {
+  color: #777777;
   display: block;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 1;
+  margin-bottom: 3px;
+}
+.footer-demo nav > ul a:not(.btn):hover, .footer nav > ul a:not(.btn):focus {
+  color: #E3E3E3;
+}
+.footer-demo .copyright {
+  color: #777777;
+  padding: 10px 15px;
+  font-size: 14px;
+  margin: 15px 3px;
+  line-height: 20px;
+  text-align: center;
+}
+.footer-demo .heart{
+    color: #EB5E28;
 }
 
-.register-background .container {
-  margin-top: 11%;
-  position: relative;
-  z-index: 3;
+.navbar-header{
+    min-width: 120px;
 }
 
-.register-footer {
-  bottom: 20px;
-  color: #fff;
-  position: absolute;
-  z-index: 3;
-  width: 100%;
+#demo-navbar{
+    border-radius: 0;
+    margin-bottom: 0px;
 }
 
-.register-footer .fa-heart {
-  color: #EB5E28;
+/* modified/added by BP */
+.info-icon {
+  text-align: center;
+  margin-bottom: 30px;
 }
-
-.register-card {
-  background-color: #FF8F5E;
-  border-radius: 8px;
-  color: #fff;
-  max-width: 350px;
-  margin: 20px 0 70px;
-  min-height: 400px;
-  padding: 30px;
+.info-icon .icon {
+  font-size: 62px;
+  line-height: 66px;
+  color: #c5a47e;
+  margin-bottom: -20px;
 }
-
-.register-card label {
+.info-icon .description {
   margin-top: 15px;
+  color: #777777;
 }
 
-.register-card .title {
-  color: #B33C12;
-  text-align: center;
-}
-
-.register-card .btn {
-  margin-top: 30px;
-}
-
-.register-card .forgot {
-  text-align: center;
-}
-
-.profile-background {
-  background-image: url("../paper_img/lamp.jpg");
-  background-position: center center;
-  background-size: cover;
-  height: 300px;
-  position: relative;
-  margin-top: -110px;
-}
-
-.profile-background .filter-black::after {
-  background-color: rgba(0, 0, 0, 0.5);
-  content: "";
-  display: block;
-  height: 300px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 1;
-}
-
-.profile-content {
-  position: relative;
-}
-
-.owner .avatar {
-  margin-top: -85px;
-  padding: 15px;
-  position: relative;
-  z-index: 3;
-}
-
-.owner .name h4 {
-  margin-top: 10px;
-}
-
-.profile-tabs {
-  margin: 50px 0;
-  min-height: 300px;
-}
-
-#following h3 {
-  margin: 40px 0;
-}
-
-.follows .unfollow {
-  width: 15px;
-}
-
-.follows hr {
-  margin-top: 10px;
-}
-
-.alert h5 {
-  margin-bottom: 10px;
+.btn-sharp {
+	border-radius: 0;
+    margin-right:10px;
+    margin-bottom:10px
 }
