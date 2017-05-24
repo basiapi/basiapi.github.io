@@ -1,4 +1,4 @@
-body {
+/*body {
 	margin-top: 60px;
 	font-size: 14px;
 	font-family: "Helvetica Nueue",Arial,Verdana,sans-serif;
@@ -8,7 +8,8 @@ body {
 .btn:focus,
 .btn:active{
     outline: 0 !important;
-}
+} */
+
 /* entire container, keeps perspective */
 .card-container {
 	  -webkit-perspective: 800px;
@@ -56,7 +57,7 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-color: #FFF;
+	background-color: #FFFCF5;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.14);
 }
 
@@ -85,7 +86,7 @@ body {
 .card{
     background: none repeat scroll 0 0 #FFFFFF;
     border-radius: 4px;
-    color: #444444;
+    color: #444444; /*text color*/
 }
 .card-container, .front, .back {
 	width: 100%;
@@ -96,6 +97,7 @@ body {
     height: 105px;
     overflow: hidden;
     border-radius: 4px 4px 0 0;
+    border-bottom: 2px solid #427C89;
 }
 .card .cover img{
     width: 100%;
@@ -107,6 +109,9 @@ body {
     margin: -55px auto 0;
     overflow: hidden;
     width: 120px;
+    border:3px solid #427C89; /*#66615b;*/
+    text-align:center;
+    background-color: #FFFCF5;
 }
 .card .user img{
     background: none repeat scroll 0 0 #FFFFFF;
@@ -195,7 +200,7 @@ body {
 .card .stats p{
 	color: #777777;
 }
-/*      Just for presentation        */
+/*      Just for presentation        
 
 .title{
     color: #506A85;
@@ -294,7 +299,7 @@ body {
 .navbar-default .navbar-brand-logo .brand{
     color: #555;
 }
-
+*/
 
 /*       Fix bug for IE      */
 

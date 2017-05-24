@@ -143,8 +143,26 @@
   color: #777777;
 }
 
+.symbol-icon {
+  fill: #66615b;
+  font-size:62px;
+  padding:20px;
+}
+
 .btn-sharp {
 	border-radius: 0;
     margin-right:10px;
     margin-bottom:10px
 }
+
+/*.navbar-brand-logo{
+    padding: 0;
+}*/
+.navbar-brand .logo{
+    border-radius: 0;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    font-size:30px;
+}
+
