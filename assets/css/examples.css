@@ -30,7 +30,7 @@
 }
 
 .landing-section {
-  padding: 150px 0;
+  padding: 110px 0;
 /*  height: 100vh; */
 }
 
@@ -149,6 +149,21 @@
   padding:20px;
 }
 
+.symbol2-icon{
+    border-radius: 50%;
+    /*display: block;
+    margin: -55px auto 0;
+    border:3px solid #427C89;*/
+    height: 94px;
+    overflow: hidden;
+    width: 94px;
+    text-align:center;
+    background-color: #FFFCF5;  
+    font-size:62px;
+    margin: auto;
+    padding-top:7px
+}
+
 .btn-sharp {
 	border-radius: 0;
     margin-right:10px;
@@ -166,3 +181,10 @@
     font-size:30px;
 }
 
+@font-face {
+    font-family: 'xkcd';
+    src: 
+	local('xkcd'),
+	url('assets/fonts/xkcd-Regular2.otf') 
+	format('opentype');
+}

@@ -5,7 +5,7 @@
 	<link rel="icon" type="image/png" href="assets/paper_img/favicon.ico">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	
-	<title>Paper Kit by Creative Tim</title>
+	<title>BasiaPi</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
@@ -55,6 +55,9 @@
                 <a class="page-scroll" href="#page-top"></a>
             </li> -->
             <li>
+                <a class="page-scroll" href="#offer">Offer</a>
+            </li>
+            <li>
                 <a class="page-scroll" href="#references">References</a>
             </li>
             <li>
@@ -62,9 +65,6 @@
             </li>
             <li>
                 <a class="page-scroll" href="#experience">Experience</a>
-            </li>
-            <li>
-                <a class="page-scroll" href="#skills">Skills</a>
             </li>
             <li>
                 <a class="page-scroll" href="assets/pdf/Piasecka_CV.pdf" id="cv">CV</a> 
@@ -100,38 +100,37 @@
             
         </div>
         <div class="main">
-            <div class="section-light-brown text-center landing-section" style="background-color:#8B7765">
+            <div class="section-light-brown text-center landing-section" style="background-color:#8B7765" id="offer">
                 <div class="container">
-                <h2>I do</h2>
+                <h2 style="padding:30px">I do</h2>
                     <br />
                     <!-- <div class="row"> -->
-                <div class="col-sm-10 col-sm-offset-1">
-                <div class="col-md-4 col-sm-6">
-                <div class="card-container">
+                <div class="col-sm-12">
+<!--- Card 1: Statistical analyses ----------->                    
+                <div class="col-md-3 col-sm-6">
+                <div class="card-container manual-flip">
                      <div class="card">
                          <div class="front">
-                             <div class="cover" style="background-color:#427C89"> <!-- #427C89"> -->
-                                 <!--<img src="assets/img/rotating_card_thumb3.png"/>-->
-                             </div>
-                             <div class="user">
-                               
-                                                <div class="symbol-icon text-primary">
-                                                    <i class="pe-7s-loop"></i>
-                                                </div>
+                             <div class="cover"> 
+                                  <div class="alert-info" style="height:100%; padding-top:3px">
+                                <div class="symbol2-icon">
+                                    <i class="pe-7s-loop"></i>
+                                </div>
+                            </div>
                                  
-                                 <!--<img class="img-circle" src="assets/img/rotating_card_profile.png"/>-->
                              </div>
+                              <br />
                              <div class="content">
                                  <div class="main">
                                      <h3 class="name">Statistical analsysis</h3>
                                      <!-- <p class="profession">Product Manager</p> -->
 <br />
-                                     <p class="text-center">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>
+                                     <p class="text-center" style="font-family:xkcd">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>
                                  </div>
                                  <div class="footer">
-                                     <div class="rating">
-                                         <i class="fa fa-mail-forward"></i> Auto Rotation
-                                     </div>
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                    See more <i class="fa fa-chevron-right"></i> 
+                                </button>
                                  </div>
                              </div>
                          </div> <!-- end front panel -->
@@ -143,66 +142,47 @@
                                  <div class="main">
                                      <h4 class="text-center">Job Description</h4>
                                      <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
-
-                                     <div class="stats-container">
-                                         <div class="stats">
-                                             <h4>235</h4>
-                                             <p>
-                                                 Followers
-                                             </p>
-                                         </div>
-                                         <div class="stats">
-                                             <h4>114</h4>
-                                             <p>
-                                                 Following
-                                             </p>
-                                         </div>
-                                         <div class="stats">
-                                             <h4>35</h4>
-                                             <p>
-                                                 Projects
-                                             </p>
-                                         </div>
-                                     </div>
-
                                  </div>
-                             </div>
-                             <div class="footer">
-                                 <div class="social-links text-center">
-                                     <a href="http://creative-tim.com" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
-                                     <a href="http://creative-tim.com" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
-                                     <a href="http://creative-tim.com" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                                 </div>
+                             
+                                <div class="footer">
+                                    <button class="btn btn-simple" rel="tooltip" onclick="rotateCard(this)">
+                                        <i class="fa fa-reply"></i> Back
+                                    </button>
+                                </div>
                              </div>
                          </div> <!-- end back panel -->
                      </div> <!-- end card -->
                  </div> <!-- end card-container -->
-                 </div> <!-- end col-md-4 -->
+                 </div> <!-- end col-md-3 -->
                  
-                
-                 <div class="col-md-4 col-sm-6">
+<!--- Card 2: Visualization ----------->                       
+                 <div class="col-md-3 col-sm-6">
              <div class="card-container manual-flip">
                 <div class="card">
                     <div class="front">
-                        <div class="cover"  style="background-color:#427C89"> <!--#FFFCF5">-->
-                            <div class="symbol-icon">
-                                                    <i class="pe-7s-loop text-muted"></i>
-                                                </div>
+                        <div class="cover">  <!--style="background-color:#427C89"> #FFFCF5">-->
+                            <div class="alert-success" style="height:100%; padding-top:3px">
+                                <div class="symbol2-icon">
+                                    <i class="pe-7s-look"></i>
+                                </div>
+                            </div>
+                            
                             <!--<img src="assets/img/rotating_card_thumb3.png"/>-->
                         </div>
                        <!-- <div class="user" style="margin-top: -115px"> -->
                            <!-- <img class="img-circle" src="assets/img/rotating_card_profile.png"/> -->
                         <!-- </div> -->
-                        <br /><br /><br />
+                        <br />
                         <div class="content">
                             <div class="main">
-                                <h3 class="name">Statistical analysis</h3><br />
+                                <h3 class="name">Captivating Visualization</h3><br />
                                <!-- <p class="profession">Web Developer</p> -->
-                                <p class="text-center">"Lamborghini Mercy <br>Your chick she so thirsty <br>I'm in that two seat Lambo"</p>
+                                
+                                      <p class="text-center" style="font-family:xkcd">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>
                             </div>
                             <div class="footer">
                                 <button class="btn btn-simple" onclick="rotateCard(this)">
-                                    <i class="fa fa-mail-forward"></i> Manual Rotation
+                                    See more <i class="fa fa-chevron-right"></i> 
                                 </button>
                             </div>
                         </div>
@@ -215,98 +195,75 @@
                             <div class="main">
                                 <h4 class="text-center">Job Description</h4>
                                 <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
-
-                                <div class="stats-container">
-                                    <div class="stats">
-                                        <h4>235</h4>
-                                        <p>
-                                            Followers
-                                        </p>
-                                    </div>
-                                    <div class="stats">
-                                        <h4>114</h4>
-                                        <p>
-                                            Following
-                                        </p>
-                                    </div>
-                                    <div class="stats">
-                                        <h4>35</h4>
-                                        <p>
-                                            Projects
-                                        </p>
-                                    </div>
-                                </div>
-
                             </div>
-                        </div>
                         <div class="footer">
-                            <button class="btn btn-simple" rel="tooltip" title="Flip Card" onclick="rotateCard(this)">
+                            <button class="btn btn-simple" rel="tooltip" onclick="rotateCard(this)">
                                 <i class="fa fa-reply"></i> Back
                             </button>
-                            <div class="social-links text-center">
-                                <a href="http://creative-tim.com" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
-                                <a href="http://creative-tim.com" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
-                                <a href="http://creative-tim.com" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                            </div>
+                           
+                        </div>
+                      
+                        
                         </div>
                     </div> <!-- end back panel -->
                 </div> <!-- end card -->
             </div> <!-- end card-container -->
         </div> <!-- end col sm 3 -->
-                    <div class="col-md-4 col-sm-6">
-                <div class="card-container  manual-flip">
+                    
+<!--- Card 3: Writing ----------->                       
+                    <div class="col-md-3 col-sm-6">
+                <div class="card-container manual-flip">
                      <div class="card">
                          <div class="front">
-                             <div class="cover" style="background-color:#FFFCF5;"> <!-- #427C89"> -->
-                                 <!--<img src="assets/img/rotating_card_thumb3.png"/>-->
-                                  <div class="symbol-icon text-primary">
-                                                    <i class="pe-7s-loop"></i>
-                                                </div>
-                            <!--<img src="assets/img/rotating_card_thumb3.png"/>-->
-                        </div>
-                            <br /><br /><br />
-                            
+                             <div class="cover"> 
+                                 <div class="alert-warning" style="height:100%; padding-top:3px">
+                                    <div class="symbol2-icon">
+                                        <i class="pe-7s-note"></i>
+                                    </div>
+                                </div>
+                             </div>
+                             <br />
                              <div class="content">
                                  <div class="main">
-                                     <h3 class="name">Statistical analsysis</h3>
+                                     <h3 class="name">Scientific <br /> Writing</h3>
                                      <!-- <p class="profession">Product Manager</p> -->
 <br />
-                                     <p class="text-center">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>
-                                 </div>
+                                     <p class="text-center" style="font-family:xkcd">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>                                 </div>
                                  <div class="footer">
-                                     <div class="rating">
-                                         <i class="fa fa-mail-forward"></i> Manual Rotation
-                                     </div>
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                        See more <i class="fa fa-chevron-right"></i> 
+                                    </button>
                                  </div>
                              </div>
                          </div> <!-- end front panel -->
                     </div></div></div>
-                    
-                    <div class="col-md-4 col-sm-6">
-                <div class="card-container  manual-flip">
+                  
+<!--- Card 4: Presentation ----------->                       
+                    <div class="col-md-3 col-sm-6">
+                <div class="card-container manual-flip">
                      <div class="card">
                          <div class="front">
-                             <div class="cover" style="background-color:#FFFCF5; border-bottom-color: #FFFCF5"> <!-- #427C89"> -->
-                                 <!--<img src="assets/img/rotating_card_thumb3.png"/>-->
-                                  <div class="symbol-icon text-primary">
-                                                    <i class="pe-7s-loop"></i>
-                                                </div>
-                            <!--<img src="assets/img/rotating_card_thumb3.png"/>-->
+                             <div class="cover"> 
+                                <div class="alert-danger" style="height:100%; padding-top:3px">
+                                    <div class="symbol2-icon">
+                                        <i class="pe-7s-photo-gallery"></i>
+                                    </div>
+                                </div>
+                                 
                         </div>
                             
-                            
+                             <br />
                              <div class="content">
                                  <div class="main">
-                                     <h3 class="name">Statistical analsysis</h3>
+                                     <h3 class="name">Unconventional Presentation</h3>
                                      <!-- <p class="profession">Product Manager</p> -->
 <br />
-                                     <p class="text-center">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>
-                                 </div>
-                                 <br /><br /> <br />
+                                      <p class="text-center" style="font-family:xkcd">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>                                </div>
+                                 
                                  <div class="footer">
-                                     <div class="rating">
-                                         <i class="fa fa-mail-forward"></i> Manual Rotation
-                                     </div>
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                        See more <i class="fa fa-chevron-right"></i> 
+                                    </button>
                                  </div>
                              </div>
                          </div> <!-- end front panel -->
@@ -318,76 +275,25 @@
                  </div> <!-- end container -->    
                 
             </div> <!-- end section -->
-            <div class="section-light-brown text-center landing-section" style="background-color:#8B7765">
-                <div class="container">
-                    <h2>I do</h2>
-                    <br />
-                    <div class="row">
-                        
-                        <div class="col-md-5 col-md-offset-1">
-                           <!-- <div class="card-container">
-                                <div class="card">
-                                    <div class="front">
-                                        <div class="content"> -->
-                                            <div class="info-icon">
-                                                <div class="icon text-primary">
-                                                    <i class="pe-7s-loop"></i>
-                                                </div>
-                                                <h3>Statistical Analysis</h3>
-                                                <p>Divide details about your product or agency work into parts. Write a few lines about each one..Divide details about your product or agency work into parts..</p>
-                                                  <a class="btn btn-primary btn-simple" href="#">See more <i class="fa fa-chevron-right"></i></a>
-                                            </div>    
-                        </div>
-                        <div class="col-md-5">
-                            <div class="info-icon">
-                                <div class="icon text-primary">
-                                    <i class="pe-7s-look"></i>
-                                </div>
-                                <h3>Captivating Visualization</h3>
-                                <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-                                <a class="btn btn-primary btn-simple" href="#">See more <i class="fa fa-chevron-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-md-5 col-md-offset-1">
-                            <div class="info-icon">
-                                <div class="icon text-primary">
-                                    <i class="pe-7s-note"></i>
-                                </div>
-                                <h3>Scientific Writing</h3>
-                                <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-                                <a class="btn btn-primary btn-simple" href="#">See more <i class="fa fa-chevron-right"></i></a>
-                            </div>    
-                        </div>
-                        <div class="col-md-5">
-                            <div class="info-icon">
-                                <div class="icon text-primary">
-                                    <i class="pe-7s-photo-gallery"></i>
-                                </div>
-                                <h3>Unconventional Presentation</h3>
-                                <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-                                <a class="btn btn-primary btn-simple" href="#">See more <i class="fa fa-chevron-right"></i></a>
-                            </div>    
-                        </div>
-                      
-                    </div>
-                </div>
-            </div>
+          
             
             <div class="section-light-brown landing-section"  id="references">
                 <div class="container">
                     <div class="title-area text-center">
-                        <h2>I hear</h2>
+                        <h2 style="padding:30px">I hear</h2>
                         <br />
                     </div>
                         
                     <div class="row">
                         <div class="col-md-4 column">
-                            <h5>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</h5>
+                            <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
                             <p class="small text-right">Marc Robinson-Rechavi <br> Head of Evolutionary Bioinformatics Group, UNIL</p>
-                        </div>
-                        <div class="col-md-4 column">
                             <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
                             <p class="small text-right">Sven Bergmann <br> Head of Computational Biology Group, UNIL</p>
+                        </div>
+                        <div class="col-md-4 column" style="text-align:justify">
+                            <p>Barbara is a thorough and independent thinker. She is careful in her selection of statistical techniques for data analysis and has a keen ability to communicate with life scientists. Additionally, she is able to present findings in informative ways. Barbara is fully capable of leading a scientific investigation starting from posing the right questions to delivering a final report.</p>
+                            <p class="small text-right">Matthew Albert <br> Scientific coordinator of Millieu Interieur Project, Institut Pasteur</p>
                         </div>
                         <div class="col-md-4 column">
                             <h4>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</h4>
@@ -399,7 +305,7 @@
                        
             <div class="section-white text-center landing-section"  id="education">
                 <div class="container">
-                    <h2>I learnt</h2>
+                    <h2 style="padding:30px">I learnt</h2>
                     <br />
                     <div class="col-md-10 col-md-offset-1">
                     <div class="col-md-4  col-xs-4">
@@ -453,7 +359,7 @@
                             <a href="#" class="btn btn-danger btn-fill">See Details</a>
                         </div>
                     </div> -->
-                    <h2>I worked for</h2>  
+                    <h2 style="padding:30px">I worked for</h2>  
                     <br />
                     <div class="row">
                         <div class="col-md-10 col-md-offset-1">
