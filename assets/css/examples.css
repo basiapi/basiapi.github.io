@@ -188,3 +188,58 @@
 	url('assets/fonts/xkcd-Regular2.otf') 
 	format('opentype');
 }
+
+#vis-carousel > .item > img{
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
+  margin-left: 0%;
+  max-width: 100%;
+}
+
+#vis-carousel > .item {
+  padding: 0px;
+}
+
+#vis-carousel-control,
+#vis-carousel-control:hover,
+#vis-carousel-control:focus {
+  background-color: transparent;
+  border-radius: 50%;
+  
+  text-shadow: none;
+}
+
+#vis-carousel-control.left {
+  height: 30px;
+  top: 50%;
+  width: 30px;
+  left: 0;
+}
+
+#vis-carousel-control.right {
+  height: 30px;
+  right: 0;
+  top: 50%;
+  width: 30px;
+}
+
+#vis-carousel-control .fa {
+    color:#7AC29A;
+    opacity: 0.5;
+}
+
+#vis-carousel-control .fa:hover,
+#vis-carousel-control .fa:focus {
+    color:#42A084;
+    opacity:1;
+}
+
+.modal-body .divider {
+  background-color: #F3BB45; /*#DDDDDD;
+  display: inline-block;
+  float: inherit;*/
+  height: 100%;
+  margin-left: -15px;
+  position: absolute;
+  width: 2px;
+}

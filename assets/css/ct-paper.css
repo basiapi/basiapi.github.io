@@ -1243,6 +1243,12 @@ textarea.form-control {
   font-size: 14px;
   font-weight: 400;
 }
+
+.tooltip.in {
+  opacity: 1;
+  filter:alpha(opacity=100);
+}
+
 .tooltip.top {
   margin-top: -11px;
   padding: 0;
@@ -1326,8 +1332,8 @@ textarea.form-control {
   border-radius: 8px;
   box-shadow: 0 1px 13px rgba(0, 0, 0, 0.14), 0 0 0 1px rgba(115, 71, 38, 0.23);
   color: #66615B;
-  max-width: 200px;
-  padding: 10px 10px;
+  max-width: 150px;
+  padding: 10px 12px;
   text-align: center;
   text-decoration: none;
 }
@@ -2420,14 +2426,14 @@ textarea.form-control {
 }
 
 .carousel-control {
-  background-color: #EB5E28;
+  background-color: #7AC29A;
   border-radius: 50%;
   opacity: 1;
   text-shadow: none;
 }
 .carousel-control:hover, .carousel-control:focus {
   opacity: 1;
-  background-color: #B33C12;
+  background-color: #42A084;
 }
 
 .carousel-control.left {
@@ -2475,16 +2481,18 @@ textarea.form-control {
 }
 
 .carousel-indicators {
-  bottom: 0px;
+  bottom: -35px;
 }
 
 .carousel-indicators > li {
-  background-color: #FFFFFF;
+  background-color: #7AC29A;
   border: 0 none;
+  opacity:0.5;
 }
 
 .carousel-indicators .active {
-  background-color: #EB5E28;
+  background-color: #42A084;
+  opacity:1;
 }
 
 .modal-header {
@@ -2499,12 +2507,12 @@ textarea.form-control {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.15), 0 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
-.modal-dialog {
+/*.modal-dialog {
   padding-top: 60px;
-}
+}*/
 
 .modal-body {
-  padding: 20px 50px;
+  padding: 0px 10px 10px;
 }
 
 .modal-footer {
