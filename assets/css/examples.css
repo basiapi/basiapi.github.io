@@ -48,6 +48,7 @@
     margin:0;
     height: 100vh;
     padding: 21% 0%;
+    
 }
 
 .uni-logo .img-circle, .uni-logo .img-thumbnail, .uni-logo .img {
@@ -193,6 +194,7 @@
   border-radius: 8px;
   box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
   margin-left: 0%;
+  padding: 0px 20px;
   max-width: 100%;
 }
 
@@ -243,3 +245,17 @@
   position: absolute;
   width: 2px;
 }
+
+#pub-btn:focus {
+  background-color: transparent;
+  border-color: #66615B;
+  color: #66615B;
+}
+
+#pub-btn:hover,#pub-btn:active {
+  background-color: #66615B;
+  color: rgba(255, 255, 255, 0.7);
+  border-color: #66615B;
+}
+
+

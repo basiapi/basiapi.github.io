@@ -85,7 +85,7 @@
     </div>
 -->    
     <div class="wrapper">
-        <div class="landing-jumbotron" style="background-image: url('assets/paper_img/pi4_4.png')">
+        <div class="landing-jumbotron" style="background-image: url('assets/paper_img/pi_tiles_2.png');">
             <div class="bg-warning text-center" style="background-color:#8B7765;">
                <!-- <div style="line-height: 1%;"><br></div> -->
                 
@@ -101,11 +101,11 @@
         </div>
         <div class="main">
             <div class="section-light-brown text-center landing-section" style="background-color:#8B7765" id="offer">
-                <div class="container" style="margin-left:8%">
+                <div class="container"> <!--style="margin-left:8%"-->
                 <h2 style="padding:30px">I do</h2>
                     <br />
-                    <!-- <div class="row"> -->
-                <div class="col-sm-12">
+                     <div class="row"> 
+                <div class="col-sm-12"> <!--this could probably be skipped, it's the same as row-->
 <!--- Card 1: Statistical analyses ----------->                    
                 <div class="col-md-3 col-sm-6">
                 <div class="card-container manual-flip">
@@ -122,9 +122,9 @@
                               <br />
                              <div class="content">
                                  <div class="main">
-                                     <h3 class="name" style="margin-bottom:10px">Statistical analsysis</h3>
+                                     <h3 class="name" style="margin-bottom:10px">Statistical <br> analsysis</h3>
                                      <!-- <p class="profession">Product Manager</p> -->
-                                     <p class="text-center">In every data set information hides.<br> I will find and investigate patterns in your data to help you make better decisions.</p>
+                                     <p>In every data set information hides.<br> I will find and investigate patterns in your data to help you make better decisions.</p>
                                  </div>
                                  <div class="footer">
                                     <button class="btn btn-simple" onclick="rotateCard(this)">
@@ -135,12 +135,32 @@
                          </div> <!-- end front panel -->
                          <div class="back">
                              <div class="header">
-                                 <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                                 <h6 class="motto text-info" style="border-bottom-color:#3091B2">Methods<br>and Tools</h6>
                              </div>
                              <div class="content">
-                                 <div class="main">
-                                     <h4 class="text-center">Job Description</h4>
-                                     <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
+                                 <div class="main" style="margin:0% auto">
+                                     
+                                     <span class="label label-info">Machine learning</span>
+                                     <span class="label label-info">Regression</span>
+                                     <!--<span class="label label-info">Regularized Regression</span>-->
+                                     <span class="label label-info">Mixed Models</span>
+                                     <span class="label label-info">Clustering</span>
+                                     <span class="label label-info">Classification</span>
+                                     <span class="label label-info">PCA</span>
+                                     <span class="label label-info">Survival analysis</span>
+                                     <span class="label label-info">Statistical hypothesis testing</span>
+                                     <span class="label label-info">Gene expression analyses</span>
+                                     <span class="label label-info">GWAS</span>
+                                     <span class="label label-info">G&timesE interactions</span>
+                                     <span class="label label-info">eQTL mapping</span>
+                                     <br><br>                                     
+                                     <!-- <p class="text-center">with</p> -->
+                                     
+                                     <span class="label label-primary">R</span>
+                                     <span class="label label-primary">Bash</span>
+                                     <span class="label label-primary">Matlab</span>
+                                     <span class="label label-primary">Plink</span>
+                                    
                                  </div>
                              
                                 <div class="footer">
@@ -176,7 +196,7 @@
                             <div class="main">
                                 <h3 class="name">Captivating Visualization</h3>
                                 <!-- <p class="profession" ></p> -->
-                                <p class="text-center">A picture is worth a thousand words. To help you understand your data I will provide you with a collection of clear and illustrative graphs.</p>
+                                <p>A picture is worth a thousand words. To help you understand your data I will provide you with a collection of clear and illustrative graphs.</p>
                             </div>
                             <div class="footer">
                                 <button class="btn btn-simple" onclick="rotateCard(this)">
@@ -187,7 +207,7 @@
                     </div> <!-- end front panel -->
                     <div class="back">
                         <div class="header">
-                            <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                            <h6 class="motto text-success" style="border-bottom-color:#42A084">Selection of <br> figures</h6>
                         </div>
                         <div class="content"> <!-- style="padding-left:2px;padding-right:2px"> -->
                             <div class="main" style="padding-bottom:85px;margin-left:-18px;margin-right:-18px">
@@ -203,15 +223,15 @@
                                           </ol>
 
                                           <!-- Wrapper for slides -->
-                                          <div class="carousel-inner" id="vis-carousel">
+                                          <div class="carousel-inner" id="vis-carousel" style="height:223px">
                                             <div class="item active">
-                                              <img src="assets/paper_img/pencils.jpg" alt="Awesome Image">
+                                              <img src="assets/paper_img/cis_eQTLs.png" alt="Awesome Image">
+                                            </div>
+                                            <div class="item" >
+                                              <img src="assets/paper_img/genoplot.png" alt="Awesome Image">
                                             </div>
                                             <div class="item">
-                                              <img src="assets/paper_img/shoes.jpg" alt="Awesome Image">
-                                            </div>
-                                            <div class="item">
-                                              <img src="assets/paper_img/types.jpg" alt="Awesome Image">
+                                              <img src="assets/paper_img/types.jpg" alt="Awesome Image" >
                                             </div>
                                           </div>
 
@@ -257,7 +277,7 @@
                                  <div class="main">
                                      <h3 class="name">Scientific <br /> Writing</h3>
                                      <!-- <p class="profession">Product Manager</p> -->
-                                     <p class="text-center">Writing up the research results is a challenging task. I will write concise paragraphs for your technical report or research paper.</p>   
+                                     <p>Writing up the research results is a challenging task. I will write concise paragraphs for your technical report or research paper.</p>   
                                  </div>
                                  <div class="footer">
                                     <button class="btn btn-simple" onclick="rotateCard(this)">
@@ -268,10 +288,10 @@
                          </div> <!-- end front panel -->
                          <div class="back">
                         <div class="header">
-                            <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                            <h6 class="motto text-warning" style="border-bottom-color:#BB992F">Selection of <br> publications</h6>
                         </div>
                         <div class="content">
-                            <div class="main" style="width:80%">
+                            <!--<div class="main" style="width:80%">
                                 <button class="btn btn-simple"  style="border:2px solid #EEEEEE;border-radius:0;margin:5px auto;
                                                                        position:relative;left:0px;bottom:25px">
                                 
@@ -285,6 +305,8 @@
                                 <button class="btn btn-simple"  style="border:2px solid #EEEEEE;border-radius:0;margin:5px auto;position:relative;left:40px;bottom:475px" data-toggle="modal" data-target="#Modal1">
                                 <img src="assets/publications/Piasecka_et_al_2013_PLOSGen_page1.png" style="width:100%">
                                 </button>
+                              </div>
+                             -->
                                 
                                 
                                 
@@ -302,8 +324,20 @@
                          <button class="btn btn-simple"  style="border:2px solid #EEEEEE;border-radius:0;margin:5px auto">
                                 <img src="assets/img/logo/BMC-Genomics2.png" style="width:100%">
                             </button> -->
-                                
+                              
+                             
+                            <div class="main" style="margin:10% auto">
+                                <button class="btn" style = "padding:10px 4px; margin: 10px auto" data-toggle="modal" data-target="#Modal1" id="pub-btn">
+                                    Nature Immunology, 2017
+                                </button>
+                                <button class="btn" style = "padding:10px 28px; margin: 10px auto" data-toggle="modal" data-target="#Modal2" id="pub-btn">
+                                    PLoS Genetics, 2013
+                                </button >
+                                <button class="btn" style = "padding:10px 26px; margin: 10px auto" data-toggle="modal" data-target="#Modal3" id="pub-btn">
+                                    Bioinformatics, 2012
+                                </button >
                             </div>
+                            
                         <div class="footer">
                             <button class="btn btn-simple" onclick="rotateCard(this)">
                                 <i class="fa fa-reply"></i> Back
@@ -338,7 +372,7 @@
                                  <div class="main">
                                      <h3 class="name">Unconventional Presentation</h3>
                                      <!--<p class="profession" style="margin-bottom:-5px"></p>-->
-                                     <p class="text-center">Knowledge should be shared with others.<br>I can help you prepare an engaging presentation of the results for your collaborators.</p>
+                                     <p>Knowledge should be shared with others.<br>I can help you prepare an engaging presentation of the results for your collaborators.</p>
                                  </div>
                                  
                                  <div class="footer">
@@ -350,7 +384,7 @@
                          </div> <!-- end front panel -->
                     <div class="back">
                         <div class="header">
-                            <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                            <h6 class="motto text-danger" style="border-bottom-color:#B33C12">Unconventional Presentation</h6>
                         </div>
                         <div class="content" style="padding-bottom:0px">
                             <div class="main"> <!-- style="margin-bottom:-4px"> -->
@@ -362,9 +396,9 @@
                                  <div class="thumbnail" style="border-color:transparent;background-color:#FFFCF5">
                                      <div class="caption" style="border:2px solid;">
                                         <p style="font-family:xkcd;font-size:22px;margin:0;line-height:1.2">
-                                            Award <small style="font-size: 50%">For</small><br>Best 
-                                            <a class="text-danger" href="assets/pdf/Piasecka_CV.pdf" style="font-family:xkcd" rel="tooltip" title="Click here to see the poster">Poster</a>
-                                            <br><small style="font-size: 50%;">at</small> ECCB'13
+                                            Award <small style="font-size: 50%">for</small><br>Best 
+                                            <a class="text-danger" href="assets/pdf/Piasecka_ECCB_poster.pdf" style="font-family:xkcd" rel="tooltip" title="Click here to see the poster">Poster</a>
+                                            <br><small style="font-size: 50%;">at</small> ECCB'12
                                             </p>
                                      </div>
                                 
@@ -393,83 +427,10 @@
                     
             </div> <!-- end col-md-10 -->
                      
-                        <!--</div> <!--end row -->
+                    </div> <!--end row -->
                  </div> <!-- end container -->    
                 
             </div> <!-- end section -->
-          
-            
-            <div class="section-light-brown landing-section"  id="references">
-                <div class="container">
-                    <div class="title-area text-center">
-                        <h2 style="padding:30px">I hear</h2>
-                        <br />
-                    </div>
-                        
-                    <div class="row">
-                        <div class="col-md-4 column">
-                            <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-                            <p class="small text-right">Marc Robinson-Rechavi <br> Head of Evolutionary Bioinformatics Group, UNIL</p>
-                            <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-                            <p class="small text-right">Sven Bergmann <br> Head of Computational Biology Group, UNIL</p>
-                        </div>
-                        <div class="col-md-4 column" style="text-align:justify">
-                            <p>Barbara is a thorough and independent thinker. She is careful in her selection of statistical techniques for data analysis and has a keen ability to communicate with life scientists. Additionally, she is able to present findings in informative ways. Barbara is fully capable of leading a scientific investigation starting from posing the right questions to delivering a final report.</p>
-                            <p class="small text-right">Matthew Albert <br> Scientific coordinator of Millieu Interieur Project, Institut Pasteur</p>
-                        </div>
-                        <div class="col-md-4 column">
-                            <h4>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</h4>
-                            <p class="small text-right">Lluis Qunitana-Murci <br> Scientific Director, Institut Pasteur</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                       
-            <div class="section-white text-center landing-section"  id="education">
-                <div class="container">
-                    <h2 style="padding:30px">I learnt</h2>
-                    <br />
-                    <div class="col-md-10 col-md-offset-1">
-                    <div class="col-md-4  col-xs-4">
-                       <!-- <div class="uni-logo">
-                            <h5>Biotechnology <br> and Mathematics <br><small>at</small></h5>
-                            <a href="http://international.amu.edu.pl/">
-                                <img src="assets/img/logo/logotyp_wersja-pozioma_czarny_ENG_3_v3.jpg" alt="logo_UAM" class="img img-responsive" style="width:80%">
-                            </a> -->
-                             <div class="thumbnail" style="border-color:transparent">
-                                 <div class="caption"  style="color:#66615b">
-                                    <h5>Biotechnology <br> and Mathematics <br><small>at</small></h5>
-                                 </div>
-                                 <a href="http://international.amu.edu.pl/">
-                                    <img src="assets/img/logo/logotyp_wersja-pozioma_czarny_ENG_3_v3.jpg" alt="..." style="max-width:80%">
-                                 </a>
-                            </div>    
-                    </div>
-                    <div class="col-md-4 col-xs-4">
-                       <div class="thumbnail" style="border-color:transparent">
-                           <div class="caption" style="color:#66615b">
-                                <h5><br>Immunology <br><small>at</small><br><br></h5>
-                            </div>
-                            <a href="http://www.ens-lyon.fr/en/">
-                                <img src="assets/img/logo/logo_ens_smaller2.jpg" alt="logo_ENS" class="img img-responsive" style="max-width:80%">
-                            </a>
-     
-                       </div>
-                    </div>
-                    <div class="col-md-4 col-xs-4">
-                        <div class="thumbnail" style="border-color:transparent">
-                            <div class="caption" style="color:#66615b">
-                                <h5><br>Bioinformatics <br><small>at</small><br><br></h5>
-                            </div>
-                            <a href="http://www.unil.ch/central/en/home.html">
-                                <img src="assets/img/logo/lo_unil06_noir.jpg" alt="logo_UNIL" class="img img-responsive" style="max-width:80%">
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </div>
             
             <div class="section text-center landing-section"   id="experience">
                 <div class="container">
@@ -481,7 +442,7 @@
                             <a href="#" class="btn btn-danger btn-fill">See Details</a>
                         </div>
                     </div> -->
-                    <h2 style="padding:30px">I worked for</h2>  
+                    <h2 style="padding:30px">I worked with</h2>  
                     <br />
                     <div class="row">
                         <div class="col-md-10 col-md-offset-1">
@@ -523,19 +484,85 @@
                             <img src="assets/img/logo/logos/PE_logo.png" alt="logo_PE" >
                             </a>
                         </div>
-                        
-                      
-                        
-                         
-                       
-                       
-                       
-                      
                        
                         </div> 
                     </div>
                 </div>
             </div>  
+          
+            
+            <div class="section-light-brown text-center landing-section"  id="references">
+                <div class="container">
+                        <h2 style="padding:30px">People who know me say</h2>
+                        <br />
+                    
+                        
+                    <div class="row">
+                        <div class="col-md-4 column" style="text-align:justify">
+                            <p>Barbara is a thorough and independent thinker. She is careful in her selection of statistical techniques for data analysis and has a keen ability to communicate with life scientists. Additionally, she is able to present findings in informative ways. Barbara is fully capable of leading a scientific investigation starting from posing the right questions to delivering a final report.</p>
+                            <p class="small text-right">Matthew Albert <br> Scientific coordinator of Millieu Interieur Project, Institut Pasteur</p>
+                        </div>
+                        <div class="col-md-4 column" style="text-align:justify">
+                            <p>Barbara can be summarized in just a few words: efficient, straightforward, insightful, reactive, and (moreover) pleasant. In addition, she is extremely professional, always pushing her views when she thinks she has to do it for the sake of statistical rigor. In other words, working with her has been (and I hope will be in the future) one of the best experiences I have had in terms of 'time spent' and 'deliverables achieved' ... a real pleasure working with her!</p>
+                            <p class="small text-right">Lluis Qunitana-Murci <br> Scientific Director, Institut Pasteur</p>
+                        </div>
+                        <div class="col-md-4 column" style="text-align:justify">
+                            <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                            <p class="small text-right">Marc Robinson-Rechavi <br> Head of Evolutionary Bioinformatics Group, UNIL</p>
+                            <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                            <p class="small text-right">Sven Bergmann <br> Head of Computational Biology Group, UNIL</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                       
+            <div class="section-white text-center landing-section"  id="education">
+                <div class="container">
+                    <h2 style="padding:30px">I learnt</h2>
+                    <br />
+                    <div class="col-md-10 col-md-offset-1">
+                    <div class="col-md-4  col-sm-6 col-xs-12">
+                       <!-- <div class="uni-logo">
+                            <h5>Biotechnology <br> and Mathematics <br><small>at</small></h5>
+                            <a href="http://international.amu.edu.pl/">
+                                <img src="assets/img/logo/logotyp_wersja-pozioma_czarny_ENG_3_v3.jpg" alt="logo_UAM" class="img img-responsive" style="width:80%">
+                            </a> -->
+                             <div class="thumbnail" style="border-color:transparent;max-width: 300px;margin:10px auto">
+                                 <div class="caption"  style="color:#66615b">
+                                    <h4>Biotechnology <br> and Mathematics <br><small>at</small></h4>
+                                 </div>
+                                 <a href="http://international.amu.edu.pl/">
+                                    <img src="assets/img/logo/logotyp_wersja-pozioma_czarny_ENG_3_v3.jpg" alt="..." style="max-width:70%">
+                                 </a>
+                            </div>    
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                       <div class="thumbnail" style="border-color:transparent;max-width: 300px;margin:0px auto 20px">
+                           <div class="caption" style="color:#66615b">
+                                <h4><br>Immunology <br><small>at</small><br></h4>
+                            </div>
+                            <a href="http://www.ens-lyon.fr/en/">
+                                <img src="assets/img/logo/logo_ens_smaller2.jpg" alt="logo_ENS" class="img img-responsive" style="max-width:70%">
+                            </a>
+     
+                       </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="thumbnail" style="border-color:transparent;max-width: 300px;margin:10px auto">
+                            <div class="caption" style="color:#66615b">
+                                <h4><br>Bioinformatics <br><small>at</small><br></h4>
+                            </div>
+                            <a href="http://www.unil.ch/central/en/home.html">
+                                <img src="assets/img/logo/lo_unil06_noir.jpg" alt="logo_UNIL" class="img img-responsive" style="max-width:70%">
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            
+            
             
             <div class="section section-dark landing-section">
                 <div class="container">
@@ -569,6 +596,80 @@
         </div>     
     </div>
     
+<!-- Modals -->    
+<div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="ModalLabel1" aria-hidden="true">
+  <div class="modal-dialog" style="width:60vw">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" style="margin:15px auto 0px" id="ModalLabel1">Dissecting the roles of age, sex and genetics in shaping variation in the human immune landscape <br>
+          <small> Piasecka B. and Duffy D. et al</small></h4>
+      </div>
+      <div class="modal-body" style="text-align:justify;margin:10px">
+        <p><b>Abstract:</b> The contribution of host genetic and non-genetic factors to immune response variation remains largely undefined. Here we generated bacterial-, fungal- and viral-induced immune transcriptional profiles in an age and sex balanced cohort of 1,000 healthy individuals, and mapped expression quantative trait loci (eQTL). We found that the inherent interindividual hetereogeneity in blood cell composition accounted for the largest proportion of gene expression variation. The effects of age and sex were overall moderate, but concerned many immune-related genes, whereas those of genetic factors ⎯ both local and trans-acting eQTLs ⎯ were stronger and affected fewer genes. We also found that age effects were overall weaker, and thus more stimulus-specific, relative to sex effects, which were largely shared across conditions. We identified numerous eQTLs that affected gene expression exclusively upon microbial challenge, including a novel Candida albicans-specific master regulator at the CR1 locus. These cases of gene-environment interactions were enriched in disease-causing variants, indicating that differences in disease risk may result from regulatory variants exerting their effects only in the presence of immune stress. Together, our findings delineate the respective effects of age, sex and genetics on immune transcriptional circuits upon microbial infection.</p>
+      </div>
+      <div class="modal-footer">
+        <div class="right-side">
+            <button type="button" class="btn btn-default btn-simple" data-dismiss="modal">Close</button>
+        </div>
+        <div class="divider"></div>
+        <div class="left-side">
+            <a type="button" class="btn btn-warning btn-simple" href="">Full paper</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+<div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="ModalLabel2" aria-hidden="true">
+  <div class="modal-dialog" style="width:60vw">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" style="margin:15px auto 0px" id="ModalLabel2">The hourglass and the early conservation models — co-existing patterns of developmental constraints in vertebrates <br>
+          <small> Piasecka B. and Lichocki P. et al</small></h4>
+      </div>
+      <div class="modal-body" style="text-align:justify;margin:10px">
+        <p><b>Abstract:</b> Developmental constraints have been postulated to limit the space of feasible phenotypes and thus shape animal evolution. These constraints have been suggested to be the strongest during either early or mid-embryogenesis, which corresponds to the early conservation model or the hourglass model, respectively. Conflicting results have been reported, but in recent studies of animal transcriptomes the hourglass model has been favored. Studies usually report descriptive statistics calculated for all genes over all developmental time points. This introduces dependencies between the sets of compared genes and may lead to biased results. Here we overcome this problem using an alternative modular analysis. We used the Iterative Signature Algorithm to identify distinct modules of genes co-expressed specifically in consecutive stages of zebrafish development. We then performed a detailed comparison of several gene properties between modules, allowing for a less biased and more powerful analysis. Notably, our analysis corroborated the hourglass pattern at the regulatory level, with sequences of regulatory regions being most conserved for genes expressed in mid-development but not at the level of gene sequence, age, or expression, in contrast to some previous studies. The early conservation model was supported with gene duplication and birth that were the most rare for genes expressed in early development. Finally, for all gene properties, we observed the least conservation for genes expressed in late development or adult, consistent with both models. Overall, with the modular approach, we showed that different levels of molecular evolution follow different patterns of developmental constraints. Thus both models are valid, but with respect to different genomic features.</p>
+      </div>
+      <div class="modal-footer">
+        <div class="right-side">
+            <button type="button" class="btn btn-default btn-simple" data-dismiss="modal">Close</button>
+        </div>
+        <div class="divider"></div>
+        <div class="left-side">
+            <a type="button" class="btn btn-warning btn-simple" href="http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1003476" target="_blank">Full paper</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>    
+    
+<div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="ModalLabel3" aria-hidden="true">
+  <div class="modal-dialog" style="width:60vw">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" style="margin:15px auto 0px" id="ModalLabel3">Correcting for the bias due to expression specificity improves the estimation of constrained evolution of expression between mouse and human <br>
+          <small> Piasecka B. et al</small></h4>
+      </div>
+      <div class="modal-body" style="text-align:justify;margin:10px">
+        <p><b>Abstract:</b> Comparative analyses of gene expression data from different species have become an important component of the study of molecular evolution. Thus methods are needed to estimate evolutionary distances between expression profiles, as well as a neutral reference to estimate selective pressure. Divergence between expression profiles of homologous genes is often calculated with Pearson’s or Euclidean distance. Neutral divergence is usually inferred from randomized data. Despite being widely used, neither of these two steps has been well studied. Here, we analyze these methods formally and on real data, highlight their limitations and propose improvements. It has been demonstrated that Pearson’s distance, in contrast to Euclidean distance, leads to underestimation of the expression similarity between homologous genes with a conserved uniform pattern of expression. Here, we first extend this study to genes with conserved, but specific pattern of expression. Surprisingly, we find that both Pearson’s and Euclidean distances used as a measure of expression similarity between genes depend on the expression specificity of those genes. We also show that the Euclidean distance depends strongly on data normalization. Next, we show that the randomization procedure that is widely used to estimate the rate of neutral evolution is biased when broadly expressed genes are abundant in the data. To overcome this problem, we propose a novel randomization procedure that is unbiased with respect to expression profiles present in the datasets. Applying our method to the mouse and human gene expression data suggests significant gene expression conservation between these species.</p>
+      </div>
+      <div class="modal-footer">
+        <div class="right-side">
+            <button type="button" class="btn btn-default btn-simple" data-dismiss="modal">Close</button>
+        </div>
+        <div class="divider"></div>
+        <div class="left-side">
+            <a type="button" class="btn btn-warning btn-simple" href="https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/bts266" target="_blank">Full paper</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>    
+ <!-- End of Modals -->     
+    
     <footer class="footer-demo section-dark">
         <div class="container">
             <nav class="pull-left" >
@@ -598,42 +699,7 @@
     </footer>
     
     
-    <!-- Modals -->
-                                <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="ModalLabel1" aria-hidden="true">
-                                  <div class="modal-dialog" style="width:70vw">
-                                    <div class="modal-content">
-                                      <div class="modal-header overlay" style="border-bottom: 0px; padding:7px 20px;">
-                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="color:#BB992F;opacity:0.5">&times;</button>
-                                      </div>
-                                        
-                                      <div class="modal-body">
-                                        <div class="row">
-                                            <div class="col-md-4  col-xs-4 text-center">
-                                                <img src="assets/publications/Piasecka_et_al_2013_PLOSGen_page1.png" style="width:100%;padding-bottom:10px">
-                                                <a href="" class="btn btn-xs btn-fill btn-warning"><b>See whole paper</b></a>
-                                                
-                                            </div>
-                                            
-                                            <div class="col-md-4  col-xs-4 text-center">
-                                                <div class="divider"></div>
-                                                <img src="assets/publications/Piasecka_et_al_2013_PLOSGen_page1.png" style="width:100%;padding-bottom:10px">
-                                                <a href="" class="btn btn-xs btn-fill btn-warning"><b>See whole paper</b></a>
-                                                
-
-                                            </div>
-                                            <div class="col-md-4  col-xs-4 text-center">
-                                                <div class="divider"></div>
-                                                <img src="assets/publications/Piasecka_et_al_2013_PLOSGen_page1.png" style="width:100%;padding-bottom:10px">
-                                                <a href="" class="btn btn-xs btn-fill btn-warning"><b>See whole paper</b></a>
-                                            </div>
-                                    </div>
-                                      </div>
-                                        <!--<div class="modal-footer">
-                                        <p> aaaa</p>
-                                        </div> -->
-                                    </div>
-                                  </div>
-                                </div>
+    
 
 
 

@@ -2507,9 +2507,9 @@ textarea.form-control {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.15), 0 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
-/*.modal-dialog {
+.modal-dialog {
   padding-top: 60px;
-}*/
+}
 
 .modal-body {
   padding: 0px 10px 10px;
